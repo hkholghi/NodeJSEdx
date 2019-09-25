@@ -1,11 +1,13 @@
-exports.sayHelloInEnglish = function(){
-    return 'Hello'
-}
+module.exports = {
+    sayHelloInEnglish() {
+        return 'Hello'
+    }
 
-exports.sayHelloInSwedish = function(){
-    return 'Hej'
-}
+    sayHelloInSwedish() {
+        return 'Hej' 
+    }
 
-exports.sayHelloInTatar = function(){
-    return 'Isanme'
+    sayHelloInTatar() {
+        return 'Isanme'
+    }
 }
