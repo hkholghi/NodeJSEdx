@@ -1,7 +1,7 @@
 const csvFilePath = 'customer-data.csv'
 const fs = require('fs')
 const csv = require('csvtojson')
-const jsonFilePath = 'customer-data.json'
+const jsonFilePath = 'customer-data2.json'
 let jsonArr = []
 csv()
   .fromFile(csvFilePath)
